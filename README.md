@@ -9,7 +9,6 @@ to jpg by right clicking the pdf and select Pdf2Jpg in the OpenWith menu.
 The windows FileExplorer will call Pdf2Jpg using the one parameter as required.
 
 ### Configure
-
 Follow these steps to add Pdf2Jpg to the FileExplorer OpenWith menu:
 1. Open the fileexplorer
 2. Right-click any pdf file
