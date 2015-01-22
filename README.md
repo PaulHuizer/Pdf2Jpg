@@ -18,5 +18,15 @@ Follow these steps to add Pdf2Jpg to the FileExplorer OpenWith menu:
 
 Now you have the Pdf2Jpg tool added to the OpenWith menu.
 
+### Install
+* Open file explorer
+* Create a folder somewhere.
+* Copy the contents of the Pdf2Jpg bin folder into your new folder
+
+Install ready!
+
+### Licenses etc
+Feel free to use my piece of code anyway you like.  The code makes use of 2 libs, ie GhostScript.Net and the GhostScript lib.
+
 
 Happy converting!!
