@@ -30,7 +30,7 @@ Feel free to use my piece of code anyway you like.  The code makes use of 2 libs
 
 
 ### History
-2014-01-22 Initial version (v1.0.0.0) released
+2014-01-22 v1.0.0.0 Initial version released
 
 Happy converting!!
 

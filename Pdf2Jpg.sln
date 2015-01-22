@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8B64FDD-2301-4E85-87A8-B88E8A878444}"
 	ProjectSection(SolutionItems) = preProject
-		read.me = read.me
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pdf2Jpg", "Pdf2Jpg\Pdf2Jpg.csproj", "{DB71FB7A-4124-46A3-80C4-9FA075CA7B39}"
