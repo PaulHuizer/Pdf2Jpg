@@ -21,7 +21,7 @@ Now you have the Pdf2Jpg tool added to the OpenWith menu.
 ### Install
 * Open file explorer
 * Create a folder somewhere.
-* Copy the contents of the Pdf2Jpg deploy folder into your new folder
+* Copy the contents of the Pdf2Jpg deploy folder into your new folder (pick the version you like and un-rar it)
 
 Install ready!
 
