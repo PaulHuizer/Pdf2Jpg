@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pdf2Jpg", "Pdf2Jpg\Pdf2Jpg.csproj", "{DB71FB7A-4124-46A3-80C4-9FA075CA7B39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedGif2Ico", "AnimatedGif2Ico\AnimatedGif2Ico.csproj", "{9C858395-6941-471B-8BD6-69692D06F403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json2Html", "Json2Html\Json2Html.csproj", "{AB06053C-6373-45D5-931B-718D71FDA581}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{DB71FB7A-4124-46A3-80C4-9FA075CA7B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB71FB7A-4124-46A3-80C4-9FA075CA7B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB71FB7A-4124-46A3-80C4-9FA075CA7B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C858395-6941-471B-8BD6-69692D06F403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C858395-6941-471B-8BD6-69692D06F403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C858395-6941-471B-8BD6-69692D06F403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C858395-6941-471B-8BD6-69692D06F403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB06053C-6373-45D5-931B-718D71FDA581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB06053C-6373-45D5-931B-718D71FDA581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB06053C-6373-45D5-931B-718D71FDA581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB06053C-6373-45D5-931B-718D71FDA581}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

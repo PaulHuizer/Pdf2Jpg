@@ -25,7 +25,7 @@ namespace Pdf2Jpg
             if (args.Length != 1)
             {
                 PrintHelp();
-                Environment.Exit(0);
+                StopApp();
             }
 
             if (args.Length == 1)
@@ -40,6 +40,8 @@ namespace Pdf2Jpg
             
             ConvertPdf2Jpg rasterizer = new ConvertPdf2Jpg();
             rasterizer.Start(_ghostScriptLibPath, _pdfFullFilename, _outputImageFileName);
+
+            StopApp();
         }
 
         static private void PrintIntro()
@@ -61,5 +63,18 @@ namespace Pdf2Jpg
             Console.WriteLine("See the documentation on github for installation and configuration info.");
             Console.WriteLine("Recommended usage is to add pdf2jpg to the fileexplorer contextmenu");
         }
+
+        static private void StopApp()
+        {
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Press any key to quit");
+                Console.ReadKey();
+                // You are debugging 
+            }
+            Environment.Exit(0);
+        }
+
     }
 }

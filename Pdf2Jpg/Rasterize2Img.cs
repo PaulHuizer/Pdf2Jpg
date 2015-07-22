@@ -21,11 +21,12 @@ namespace Pdf2Jpg
 
             _ghostScriptVersion = new GhostscriptVersionInfo(new Version(0, 0, 0), ghostScriptLibPath, string.Empty, GhostscriptLicense.GPL);
             GhostscriptRasterizer rasterizer = new GhostscriptRasterizer();
-
+            
             var width = 0;
             var height = 0;
 
             rasterizer.Open(inputPdfPath, _ghostScriptVersion, false);
+            
             List<Bitmap> bmpList = new List<Bitmap>();
 
             // Get an image for each page in the pdf
